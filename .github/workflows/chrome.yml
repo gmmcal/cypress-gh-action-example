@@ -12,7 +12,3 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           browser: chrome
-          record: true
-          group: Tests on Chrome
-        env:
-          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
